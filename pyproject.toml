@@ -1,0 +1,24 @@
+[project]
+name = "combine-py"
+version = "0.0.1"
+authors = [
+    { name="Charles Timko", email="sparticvs@popebp.com" },
+]
+description = "API Client for 3D Printer Web APIs like Moonraker, OctoPrint, etc."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GPLv3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/sparticvs/combine-py"
+Issues = "https://github.com/sparticvs/combine-py/issues"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool]
